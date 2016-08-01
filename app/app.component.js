@@ -1,7 +1,8 @@
 (function(app) {
   app.AppComponent = ng.core.Component({
     selector: 'my-app',
-    template: '<h1>Hello World!</h1>'
+    directives: [app.MyMap],
+    template: '<h1>Hello World!</h1><my-map></my-map>'
   }).Class({
     constructor: function() {}
   });
