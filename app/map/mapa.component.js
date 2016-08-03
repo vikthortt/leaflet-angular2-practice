@@ -42,5 +42,5 @@
       });
       rwms.addTo(mymap);
     }
-  })
+  });
 })(window.app || (window.app = {}), window.L);
